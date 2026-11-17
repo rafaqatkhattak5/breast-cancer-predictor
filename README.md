@@ -3,6 +3,8 @@
 A neural network (Keras) that predicts whether a tumor is malignant or benign
 from 30 measurements, served with FastAPI and a dark glass-style web UI.
 
+![Breast Cancer AI Screening UI](Screenshot_20261117-112604.jpg)
+
 ## Model
 - Dataset: Breast Cancer Wisconsin (scikit-learn)
 - Architecture: 30 -> Dense(32) -> Dropout(0.3) -> Dense(16) -> Dense(1, sigmoid)
